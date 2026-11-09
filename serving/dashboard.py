@@ -9,9 +9,9 @@ warnings.filterwarnings('ignore', category=UserWarning)
 def get_db_connection():
     """Établit la connexion à la base de données PostgreSQL log_analysis."""
     return psycopg2.connect(
-        dbname="log_analysis", 
+        dbname="ssh_logs_db", 
         user="postgres",
-        password="123", 
+        password="rim2005", 
         host="localhost",
         port="5432"
     )
