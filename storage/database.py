@@ -5,9 +5,9 @@ from process import geolocation
 
 def get_db_connection():
     return psycopg2.connect(
-        dbname="log_analysis", 
+        dbname="ssh_logs_db", 
         user="postgres",
-        password="123", 
+        password="rim2005", 
         host="localhost",
         port="5432"
     )
